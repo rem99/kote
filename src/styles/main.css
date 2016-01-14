@@ -1,0 +1,14 @@
+.gallery {
+  margin-top: 10px;
+}
+.gallery .thumbnail {
+  background: #fcccbd;
+}
+.gallery .thumbnail img {
+  border-radius: 5px;
+}
+.gallery .thumbnail p {
+  padding-top: 10px;
+  color: #600;
+  font-weight: bold;
+}
