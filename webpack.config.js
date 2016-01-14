@@ -38,6 +38,10 @@ module.exports = {
 				loader: "style!css!autoprefixer"
 			},
 			{
+				test: /\.less$/,
+				loader: "style!css!autoprefixer!less"
+			},
+			{
 				test:   /\.(png|jpg|svg|ttf|eot|woff|woff2)$/,
 				loader: 'file?name=[path][name].[ext]'
 			}
