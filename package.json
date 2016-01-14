@@ -1,0 +1,13 @@
+{
+  "name": "Kote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+  },
+  "author": "Rostyslav",
+  "license": "WTFPL",
+  "devDependencies": {
+    "bower": "^1.7.2"
+  }
+}
