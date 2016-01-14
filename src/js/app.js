@@ -2,6 +2,9 @@ define(function (require) {
 	require('jquery');
 	require('underscore');
 	require('backbone');
+	require('styles/main.css');
+	require('libs/bootstrap/dist/css/bootstrap.min.css');
+	require('libs/bootstrap/dist/css/bootstrap-theme.min.css');
 	var CatsCollection = require('js/cats-collection');
 	var CatsView = require('js/cat-view');
 	var cats = new CatsCollection();
