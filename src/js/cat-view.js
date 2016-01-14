@@ -1,6 +1,6 @@
 define(function ( require ) {
 	var Backbone = require('backbone');
-	var template = _.template(require('text!tpl/cat.ejs'));
+	var template = _.template(require('tpl/cat.ejs'));
 
 	var CatView = Backbone.View.extend({
 		className: 'col-lg-2 col-md-3 col-sm-4',

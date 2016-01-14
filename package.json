@@ -8,6 +8,8 @@
   "author": "Rostyslav",
   "license": "WTFPL",
   "devDependencies": {
-    "bower": "^1.7.2"
+    "bower": "^1.7.2",
+    "webpack": "^1.12.11",
+    "text-loader": "0.0.1"
   }
 }
