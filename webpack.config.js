@@ -44,6 +44,10 @@ module.exports = {
 			{
 				test:   /\.(png|jpg|svg|ttf|eot|woff|woff2)$/,
 				loader: 'file?name=[path][name].[ext]'
+			},
+			{
+				test:   /\.js$/,
+				loader: 'babel?presets[]=es2015'
 			}
 		]
 	},
