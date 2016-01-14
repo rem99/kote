@@ -48,6 +48,11 @@ module.exports = {
 			{
 				test:   /\.js$/,
 				loader: 'babel?presets[]=es2015'
+			},
+			{
+				test: /\.js$/,
+				loader: "eslint-loader",
+				exclude: /(node_modules|src\/libs)/
 			}
 		]
 	},

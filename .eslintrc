@@ -1,0 +1,30 @@
+{
+  "ecmaFeatures": {
+    "globalReturn": true,
+    "modules": true
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": false
+  },
+  "globals": {
+    "document": false,
+    "escape": false,
+    "navigator": false,
+    "unescape": false,
+    "window": false,
+    "describe": true,
+    "before": true,
+    "it": true,
+    "expect": true,
+    "sinon": true
+  },
+  "parser": "babel-eslint",
+  "plugins": [],
+  "rules": {
+    "eqeqeq": [2, "smart"],
+    "max-len": [1, 120]
+    // ... lots of lots of rules here
+  }
+}
