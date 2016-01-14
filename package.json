@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+    "build": "WEBPACK_ENV=build webpack",
+    "dev": "WEBPACK_ENV=dev webpack --hot --progress --colors --watch"
   },
   "author": "Rostyslav",
   "license": "WTFPL",

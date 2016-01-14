@@ -1,5 +1,7 @@
 var webpack = require('webpack');
 
+var env = process.env.WEBPACK_ENV;
+
 var plugins = [
 	new webpack.ProvidePlugin({
 		'_': 'underscore',
@@ -8,6 +10,10 @@ var plugins = [
 		'jQuery': 'jquery'
 	})
 ];
+
+if (env === 'build') {
+	plugins.push(new webpack.optimize.UglifyJsPlugin({ minimize: true }));
+}
 
 module.exports = {
 	entry: './src/js/app.js',
